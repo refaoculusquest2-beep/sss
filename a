@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://widgets.coingecko.com/gecko-coin-price-chart-widget.js"></script>
+<style>
+body{
+    margin:0;
+    background:#111;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+</style>
+</head>
+<body>
+
+<gecko-coin-price-chart-widget
+locale="fr"
+dark-mode="true"
+outlined="true"
+coin-id="solana"
+initial-currency="eur">
+</gecko-coin-price-chart-widget>
+
+</body>
+</html>
